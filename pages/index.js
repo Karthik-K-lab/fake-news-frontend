@@ -115,7 +115,7 @@ export default function Home() {
 
               {!result && !error && (
                 <div className="empty-state">
-                  Enter text and press <strong>RUN DETECTOR</strong>.
+                  <strong>RUN DETECTOR</strong>
                 </div>
               )}
 
