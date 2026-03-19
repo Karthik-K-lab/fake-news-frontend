@@ -6,7 +6,7 @@ export default function Home() {
   const [text, setText] = useState("");
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState(null);
-  const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://your-backend-url";
+  const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://fake-news-detection-qpdb.onrender.com";
 
   async function onPredict() {
     setLoading(true);
