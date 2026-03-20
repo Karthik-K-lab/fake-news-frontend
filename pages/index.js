@@ -92,7 +92,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Fake News Arcade</title>
+        <title>News Arcade</title>
         <meta
           name="description"
           content="Retro arcade-style fake news detector"
@@ -118,7 +118,7 @@ export default function Home() {
 
           <header className="hero">
             <p className="kicker">90s Pixel Terminal</p>
-            <h1>FAKE NEWS DETECTOR</h1>
+            <h1>NEWS DETECTOR</h1>
             <p className="subtitle">
               Type a headline or short article. The scanner classifies it as
               <span> REAL</span> or <span> FAKE</span>.
