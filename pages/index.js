@@ -120,7 +120,7 @@ export default function Home() {
             <p className="kicker">90s Pixel Terminal</p>
             <h1>NEWS DETECTOR</h1>
             <p className="subtitle">
-              Type or paste the news article here. The scanner classifies it as
+              Type or paste the news article. The scanner classifies it as
               <span> REAL</span> or <span> FAKE</span>.
             </p>
           </header>
